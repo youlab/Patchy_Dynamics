@@ -20,7 +20,7 @@ clear;
 close all;
 
 
-filename = 'fileNAMEgoesHERE';
+filename = 'fileNAMEgoesHERE'; % note that any plate boundaries should be removed prior to feeding the image file to this code.
 mkdir('Results')
 
 %read the image
